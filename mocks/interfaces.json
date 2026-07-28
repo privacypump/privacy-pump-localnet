@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "relayer": {
+    "endpoint": "http://localhost:8787/mock-relayer",
+    "operations": ["create_proposal", "submit_action", "execute_proposal"],
+    "signsTransactions": false
+  },
+  "accessPackages": {
+    "provider": "memory",
+    "encrypted": false,
+    "warning": "Deterministic local fixture only"
+  },
+  "metadata": {
+    "endpoint": "http://localhost:8787/mock-metadata",
+    "authorization": "none-local-fixture"
+  }
+}

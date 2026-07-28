@@ -1,0 +1,8 @@
+{
+  "name": "privacy-pump-localnet",
+  "description": "Ephemeral local development environment for Privacy Pump public examples.",
+  "maturity": "Experimental developer tooling",
+  "network": "Local validator only",
+  "topics": ["privacy-pump", "solana", "localnet", "devtools"],
+  "visibility": "public-after-verification"
+}
